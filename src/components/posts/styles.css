@@ -1,0 +1,5 @@
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* auto-fill vai repetir para todos os elementos na coluna e minmax o minimo de largura vai ser 280px e quando o minimo for atingido o max vai ser 1fr */
+    gap: 20px;
+  }
