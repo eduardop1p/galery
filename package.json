@@ -38,14 +38,15 @@
   "devDependencies": {
     "eslint": "^8.41.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
   },
-  "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
-  "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
-  "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json,scss} --config ./.prettierrc"
+  "lint": "eslint .",
+  "lint:fix": "eslint --fix",
+  "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
 }

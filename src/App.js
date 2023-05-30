@@ -1,11 +1,11 @@
-import Home from './templates/home'
+import Home from './templates/home';
 
-function App () {
+function App() {
   return (
     <>
-        <Home />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
