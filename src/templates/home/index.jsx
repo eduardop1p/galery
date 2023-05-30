@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
-import './styles.css'
+import './styles.css';
 
-import Posts from '../../components/posts'
-import { loadPosts } from '../../utils/load-posts'
-import Button from '../../components/button'
-import TextInput from '../../components/textInput'
+import Posts from '../../components/posts';
+import { loadPosts } from '../../utils/load-posts';
+import Button from '../../components/button';
+import TextInput from '../../components/textInput';
 
 /* eslint-disable */
 
@@ -49,7 +49,7 @@ export default function Home () {
   return (
     <section className='container'>
       <div className='search-container'>
-       {searchValue && 
+       {searchValue &&    
         <h1>Searh value: {searchValue}</h1>
        }
        <TextInput handleChange={handleChange} searchValue={searchValue} />
